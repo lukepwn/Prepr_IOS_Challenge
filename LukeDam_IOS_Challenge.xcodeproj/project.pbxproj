@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A3E4298124672EBF00997FF9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3E4298024672EBF00997FF9 /* AppDelegate.swift */; };
+		A3E4298324672EBF00997FF9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3E4298224672EBF00997FF9 /* SceneDelegate.swift */; };
+		A3E4298524672EBF00997FF9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3E4298424672EBF00997FF9 /* ViewController.swift */; };
+		A3E4298824672EBF00997FF9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3E4298624672EBF00997FF9 /* Main.storyboard */; };
+		A3E4298A24672EC100997FF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3E4298924672EC100997FF9 /* Assets.xcassets */; };
+		A3E4298D24672EC100997FF9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3E4298B24672EC100997FF9 /* LaunchScreen.storyboard */; };
+		A3E4299824672EC100997FF9 /* LukeDam_IOS_ChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3E4299724672EC100997FF9 /* LukeDam_IOS_ChallengeTests.swift */; };
+		A3E429A324672EC100997FF9 /* LukeDam_IOS_ChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3E429A224672EC100997FF9 /* LukeDam_IOS_ChallengeUITests.swift */; };
+		A3E429B124672ED800997FF9 /* MapsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3E429B024672ED800997FF9 /* MapsViewController.swift */; };
+		A3E429B32467358D00997FF9 /* SiteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3E429B22467358D00997FF9 /* SiteCell.swift */; };
+		A3E429B524673BBD00997FF9 /* MyData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3E429B424673BBD00997FF9 /* MyData.swift */; };
+		A3E429B8246742E700997FF9 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3E429B7246742E700997FF9 /* AddViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A3E4299424672EC100997FF9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3E4297524672EBF00997FF9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3E4297C24672EBF00997FF9;
+			remoteInfo = LukeDam_IOS_Challenge;
+		};
+		A3E4299F24672EC100997FF9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3E4297524672EBF00997FF9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3E4297C24672EBF00997FF9;
+			remoteInfo = LukeDam_IOS_Challenge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A3E4297D24672EBF00997FF9 /* LukeDam_IOS_Challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LukeDam_IOS_Challenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3E4298024672EBF00997FF9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A3E4298224672EBF00997FF9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A3E4298424672EBF00997FF9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A3E4298724672EBF00997FF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A3E4298924672EC100997FF9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A3E4298C24672EC100997FF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A3E4298E24672EC100997FF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3E4299324672EC100997FF9 /* LukeDam_IOS_ChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LukeDam_IOS_ChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3E4299724672EC100997FF9 /* LukeDam_IOS_ChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LukeDam_IOS_ChallengeTests.swift; sourceTree = "<group>"; };
+		A3E4299924672EC100997FF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3E4299E24672EC100997FF9 /* LukeDam_IOS_ChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LukeDam_IOS_ChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3E429A224672EC100997FF9 /* LukeDam_IOS_ChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LukeDam_IOS_ChallengeUITests.swift; sourceTree = "<group>"; };
+		A3E429A424672EC100997FF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3E429B024672ED800997FF9 /* MapsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapsViewController.swift; sourceTree = "<group>"; };
+		A3E429B22467358D00997FF9 /* SiteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiteCell.swift; sourceTree = "<group>"; };
+		A3E429B424673BBD00997FF9 /* MyData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyData.swift; sourceTree = "<group>"; };
+		A3E429B7246742E700997FF9 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A3E4297A24672EBF00997FF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3E4299024672EC100997FF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3E4299B24672EC100997FF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A3E4297424672EBF00997FF9 = {
+			isa = PBXGroup;
+			children = (
+				A3E4297F24672EBF00997FF9 /* LukeDam_IOS_Challenge */,
+				A3E4299624672EC100997FF9 /* LukeDam_IOS_ChallengeTests */,
+				A3E429A124672EC100997FF9 /* LukeDam_IOS_ChallengeUITests */,
+				A3E4297E24672EBF00997FF9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A3E4297E24672EBF00997FF9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3E4297D24672EBF00997FF9 /* LukeDam_IOS_Challenge.app */,
+				A3E4299324672EC100997FF9 /* LukeDam_IOS_ChallengeTests.xctest */,
+				A3E4299E24672EC100997FF9 /* LukeDam_IOS_ChallengeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A3E4297F24672EBF00997FF9 /* LukeDam_IOS_Challenge */ = {
+			isa = PBXGroup;
+			children = (
+				A3E429BB246757BE00997FF9 /* Storyboards */,
+				A3E429BA246757A400997FF9 /* Classes */,
+				A3E429B92467578900997FF9 /* Controllers */,
+				A3E4298924672EC100997FF9 /* Assets.xcassets */,
+				A3E4298E24672EC100997FF9 /* Info.plist */,
+			);
+			path = LukeDam_IOS_Challenge;
+			sourceTree = "<group>";
+		};
+		A3E4299624672EC100997FF9 /* LukeDam_IOS_ChallengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				A3E4299724672EC100997FF9 /* LukeDam_IOS_ChallengeTests.swift */,
+				A3E4299924672EC100997FF9 /* Info.plist */,
+			);
+			path = LukeDam_IOS_ChallengeTests;
+			sourceTree = "<group>";
+		};
+		A3E429A124672EC100997FF9 /* LukeDam_IOS_ChallengeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A3E429A224672EC100997FF9 /* LukeDam_IOS_ChallengeUITests.swift */,
+				A3E429A424672EC100997FF9 /* Info.plist */,
+			);
+			path = LukeDam_IOS_ChallengeUITests;
+			sourceTree = "<group>";
+		};
+		A3E429B92467578900997FF9 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A3E4298424672EBF00997FF9 /* ViewController.swift */,
+				A3E429B024672ED800997FF9 /* MapsViewController.swift */,
+				A3E429B7246742E700997FF9 /* AddViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		A3E429BA246757A400997FF9 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A3E4298024672EBF00997FF9 /* AppDelegate.swift */,
+				A3E429B22467358D00997FF9 /* SiteCell.swift */,
+				A3E429B424673BBD00997FF9 /* MyData.swift */,
+				A3E4298224672EBF00997FF9 /* SceneDelegate.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		A3E429BB246757BE00997FF9 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				A3E4298624672EBF00997FF9 /* Main.storyboard */,
+				A3E4298B24672EC100997FF9 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A3E4297C24672EBF00997FF9 /* LukeDam_IOS_Challenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3E429A724672EC100997FF9 /* Build configuration list for PBXNativeTarget "LukeDam_IOS_Challenge" */;
+			buildPhases = (
+				A3E4297924672EBF00997FF9 /* Sources */,
+				A3E4297A24672EBF00997FF9 /* Frameworks */,
+				A3E4297B24672EBF00997FF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LukeDam_IOS_Challenge;
+			productName = LukeDam_IOS_Challenge;
+			productReference = A3E4297D24672EBF00997FF9 /* LukeDam_IOS_Challenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A3E4299224672EC100997FF9 /* LukeDam_IOS_ChallengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3E429AA24672EC100997FF9 /* Build configuration list for PBXNativeTarget "LukeDam_IOS_ChallengeTests" */;
+			buildPhases = (
+				A3E4298F24672EC100997FF9 /* Sources */,
+				A3E4299024672EC100997FF9 /* Frameworks */,
+				A3E4299124672EC100997FF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3E4299524672EC100997FF9 /* PBXTargetDependency */,
+			);
+			name = LukeDam_IOS_ChallengeTests;
+			productName = LukeDam_IOS_ChallengeTests;
+			productReference = A3E4299324672EC100997FF9 /* LukeDam_IOS_ChallengeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A3E4299D24672EC100997FF9 /* LukeDam_IOS_ChallengeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3E429AD24672EC100997FF9 /* Build configuration list for PBXNativeTarget "LukeDam_IOS_ChallengeUITests" */;
+			buildPhases = (
+				A3E4299A24672EC100997FF9 /* Sources */,
+				A3E4299B24672EC100997FF9 /* Frameworks */,
+				A3E4299C24672EC100997FF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3E429A024672EC100997FF9 /* PBXTargetDependency */,
+			);
+			name = LukeDam_IOS_ChallengeUITests;
+			productName = LukeDam_IOS_ChallengeUITests;
+			productReference = A3E4299E24672EC100997FF9 /* LukeDam_IOS_ChallengeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A3E4297524672EBF00997FF9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Luke Dam";
+				TargetAttributes = {
+					A3E4297C24672EBF00997FF9 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					A3E4299224672EC100997FF9 = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = A3E4297C24672EBF00997FF9;
+					};
+					A3E4299D24672EC100997FF9 = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = A3E4297C24672EBF00997FF9;
+					};
+				};
+			};
+			buildConfigurationList = A3E4297824672EBF00997FF9 /* Build configuration list for PBXProject "LukeDam_IOS_Challenge" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A3E4297424672EBF00997FF9;
+			productRefGroup = A3E4297E24672EBF00997FF9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A3E4297C24672EBF00997FF9 /* LukeDam_IOS_Challenge */,
+				A3E4299224672EC100997FF9 /* LukeDam_IOS_ChallengeTests */,
+				A3E4299D24672EC100997FF9 /* LukeDam_IOS_ChallengeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A3E4297B24672EBF00997FF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3E4298D24672EC100997FF9 /* LaunchScreen.storyboard in Resources */,
+				A3E4298A24672EC100997FF9 /* Assets.xcassets in Resources */,
+				A3E4298824672EBF00997FF9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3E4299124672EC100997FF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3E4299C24672EC100997FF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A3E4297924672EBF00997FF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3E4298524672EBF00997FF9 /* ViewController.swift in Sources */,
+				A3E4298124672EBF00997FF9 /* AppDelegate.swift in Sources */,
+				A3E429B8246742E700997FF9 /* AddViewController.swift in Sources */,
+				A3E4298324672EBF00997FF9 /* SceneDelegate.swift in Sources */,
+				A3E429B524673BBD00997FF9 /* MyData.swift in Sources */,
+				A3E429B32467358D00997FF9 /* SiteCell.swift in Sources */,
+				A3E429B124672ED800997FF9 /* MapsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3E4298F24672EC100997FF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3E4299824672EC100997FF9 /* LukeDam_IOS_ChallengeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3E4299A24672EC100997FF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3E429A324672EC100997FF9 /* LukeDam_IOS_ChallengeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A3E4299524672EC100997FF9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A3E4297C24672EBF00997FF9 /* LukeDam_IOS_Challenge */;
+			targetProxy = A3E4299424672EC100997FF9 /* PBXContainerItemProxy */;
+		};
+		A3E429A024672EC100997FF9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A3E4297C24672EBF00997FF9 /* LukeDam_IOS_Challenge */;
+			targetProxy = A3E4299F24672EC100997FF9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A3E4298624672EBF00997FF9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3E4298724672EBF00997FF9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A3E4298B24672EC100997FF9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3E4298C24672EC100997FF9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A3E429A524672EC100997FF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A3E429A624672EC100997FF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A3E429A824672EC100997FF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LukeDam_IOS_Challenge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Luke-Dam.LukeDam-IOS-Challenge";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A3E429A924672EC100997FF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LukeDam_IOS_Challenge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Luke-Dam.LukeDam-IOS-Challenge";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A3E429AB24672EC100997FF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LukeDam_IOS_ChallengeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Luke-Dam.LukeDam-IOS-ChallengeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LukeDam_IOS_Challenge.app/LukeDam_IOS_Challenge";
+			};
+			name = Debug;
+		};
+		A3E429AC24672EC100997FF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LukeDam_IOS_ChallengeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Luke-Dam.LukeDam-IOS-ChallengeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LukeDam_IOS_Challenge.app/LukeDam_IOS_Challenge";
+			};
+			name = Release;
+		};
+		A3E429AE24672EC100997FF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LukeDam_IOS_ChallengeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Luke-Dam.LukeDam-IOS-ChallengeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LukeDam_IOS_Challenge;
+			};
+			name = Debug;
+		};
+		A3E429AF24672EC100997FF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LukeDam_IOS_ChallengeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Luke-Dam.LukeDam-IOS-ChallengeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LukeDam_IOS_Challenge;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A3E4297824672EBF00997FF9 /* Build configuration list for PBXProject "LukeDam_IOS_Challenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3E429A524672EC100997FF9 /* Debug */,
+				A3E429A624672EC100997FF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3E429A724672EC100997FF9 /* Build configuration list for PBXNativeTarget "LukeDam_IOS_Challenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3E429A824672EC100997FF9 /* Debug */,
+				A3E429A924672EC100997FF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3E429AA24672EC100997FF9 /* Build configuration list for PBXNativeTarget "LukeDam_IOS_ChallengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3E429AB24672EC100997FF9 /* Debug */,
+				A3E429AC24672EC100997FF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3E429AD24672EC100997FF9 /* Build configuration list for PBXNativeTarget "LukeDam_IOS_ChallengeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3E429AE24672EC100997FF9 /* Debug */,
+				A3E429AF24672EC100997FF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A3E4297524672EBF00997FF9 /* Project object */;
+}
